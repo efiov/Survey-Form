@@ -1,0 +1,108 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #424242;
+  font-weight: 500;
+  font-family: monospace;
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+header {
+  text-align: center;
+  color: #424242;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 5px;
+}
+
+#description {
+  font-weight: 500;
+  font-size: 15px;
+  font-style: italic;
+  font-size: 18px;
+}
+
+#survey-form {
+  padding: 5px;
+  width: 400px;
+  margin: auto;
+}
+
+main p {
+  font-weight: 800;
+}
+
+#name,
+#email,
+#number {
+  padding: 10px;
+  border: none;
+  background-color: #fff;
+  border-bottom: 2px solid deepskyblue;
+  outline: none;
+  border-radius: 3px;
+  height: 40px;
+  width: 260px;
+  font-weight: 600;
+}
+
+#number {
+  width: 100px;
+}
+
+#dropdown {
+  width: 160px;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+}
+
+#comments {
+  background-color: lightgrey;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 16px;
+  color: #424242;
+  font-weight: 600;
+}
+
+button {
+  width: 100%;
+  height: 35px;
+  font-weight: 600;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  font-style: italic;
+  background-color: deepskyblue;
+  color: #ffffff;
+  margin: 5px auto;
+}
+
+@media (max-width: 360px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  #description {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 860px) {
+  .container {
+    width: 800px;
+    border: 1px solid red;
+    margin: 50px auto;
+  }
+}
